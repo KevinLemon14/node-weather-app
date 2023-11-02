@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback) => {
             const description = body.current.weather_descriptions[0]
             const windSpeed = body.current.wind_speed
             const precipitation = body.current.precip
-            const message = `${description}. Temperature: ${temperature} degreees C. It feels like ${feelslike} degreees C. Wind speed: ${windSpeed} mph. Precipitation: ${precipitation} mm.`
+            const message = `${description}. <br>Temperature: ${temperature} °C. <br>It feels like ${feelslike} °C. <br>Wind speed: ${windSpeed} mph. <br>Precipitation: ${precipitation} mm.`
             callback(undefined, message)
         }
     })

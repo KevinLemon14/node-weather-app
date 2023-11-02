@@ -54,3 +54,12 @@ button {
     color: white;
     padding: 8px;
 }
+
+#message-1 {
+    padding: 8px;
+}
+
+#message-2 {
+    color: red;
+    padding: 8px;
+}
